@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .k{background-color: black;
+        color: aliceblue;} 
+    </style>
+    
+</head>
+<body class="k">
+    <div >
+        <h1 id="heading"> hello world</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <ul class="ul-link">
+            <li id="li-c">one</li>
+            <li id="li-c">two</li>
+            <li id="li-c">three</li>
+        </ul>
+    </div>
+    <script>
+        const varw = document.querySelectorAll("#li-c");
+        varw.forEach(function(l){
+            l.style.color="green"
+        })
+        
+    </script>
+</body>
+</html>
